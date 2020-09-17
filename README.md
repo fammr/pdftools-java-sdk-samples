@@ -229,8 +229,7 @@ mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.p
 
 #### Protect a PDF File with an Owner Password and Permissions
 
-The sample class ProtectPDFWithOwnerPassword secures an input PDF file with owner/permissions password. 
-The secured PDF is restricted for copying and editing of the content, and printing of the document at high resolution.
+The sample class ProtectPDFWithOwnerPassword secures an input PDF file with owner password and allow certain access permissions such as copying and editing the contents, and printing of the document at low resolution.
 
 ```$xslt
 mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.protectpdf.ProtectPDFWithOwnerPassword
